@@ -27,7 +27,7 @@ nav ul, li{
     list-style:none;
 }
     
-a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none;color: #666;}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none;color: #222;}
 
 .clearfix::after {
     content: "";
