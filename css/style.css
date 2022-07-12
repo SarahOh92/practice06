@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.gnb_btn{line-height: 30px;font-size: 13px;height: 30px;border-radius: 2px;cursor: pointer;}
+.main_btn {width: 200px;height: 38px;color: #14adea;display: block;font-weight: 500;font-size: 14px;border: 1px solid #14adea;line-height: 38px;text-align: center;border-radius: 2px;}
+.main_btn:hover{color: #fff;background: #14adea;display: block;}
+
 .header_top{border-bottom: 1px solid #ededed;}
 .header_top .inner{height: 31px; display: flex;align-items: center;justify-content: space-between;line-height: 31px;}
 .header_top .inner a{color: #222;font-weight: 500;}
@@ -10,7 +14,7 @@
 .head_util a.lang{font-family: 'Nanum Gothic', sans-serif;font-size: 11px;}
 .head_util a.lang i{font-size: 12px;}
 
-.gnb_area{margin-top: 14px;}
+.gnb_area{height: 60px;line-height: 60px;}
 .gnb_area>.inner{display: flex;align-items: center;justify-content: space-between;}
 .gnb_area h1{width: 203px;height: 34px;}
 .gnb_area h1 a{background: url(../img/logo_bk.png) 0 no-repeat;display: block;width: 100%;height: 100%;background-size: contain;}
@@ -26,11 +30,11 @@
 
 .gnb_right{display: flex;align-items: center;}
 .search_btn{background: url(../img/search-b.svg) 50% no-repeat;background-size: contain;width: 30px;height: 30px;margin: 0 20px;}
-.btn{line-height: 30px;font-size: 13px;width: 97px;height: 30px;border-radius: 2px;cursor: pointer;}
-.select{border: 1px solid #12232e;padding: 0 16px; text-align: center;}
-.util{background: #1e2321;margin-left: 5px; color: #fff;text-align: center;}
-.btn:hover{background: #14adea;border-color: #14adea;color: #fff;}
+.select{border: 1px solid #12232e;padding: 0 16px; text-align: center;width: 104px;}
+.util{background: #1e2321;margin-left: 5px; color: #fff;text-align: center;width: 97px;}
+.gnb_btn:hover{background: #14adea;border-color: #14adea;color: #fff;}
 
+.main_bn_area
 .bn_slider {height: 260px;}
 .bn_slider li{background:url(../img/main_bn1.png) 50% no-repeat; width: 100%;background-size: cover;height: 100%;text-align: center;}
 .bn_slider li p{color: #fff;}
@@ -41,3 +45,6 @@
 .btn_white{width: 200px; height: 38px;display: inline-block;line-height: 38px;margin: 0 4px;}
 .btn_white a{color: #fff;display: block;border: 1px solid #fff;font-weight: 600;}
 .btn_white a:hover{background: #fff;color: #333;}
+
+.sub_bn_area{background: #1e232e;height: 88px;}
+h2{font-size: 32px;}
