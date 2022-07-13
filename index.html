@@ -26,12 +26,12 @@
         </div>
         <div class="gnb_area">
             <div class="inner">
-                <h1><a href="index.html"></a></h1>
+                <h1><a href="index.html"><span class="ir_pm">네이버클라우드</span></a></h1>
                 <ul class="gnb">
                     <li class="m_1">
                         <a href="#">
                             <span class="dot dotgreen">소개</span>
-                            <ul class="depth2 ">
+                            <ul class="depth2">
                                 <li><a href="#">서비스 소개</a></li>
                                 <li><a href="#">서비스 소식</a></li>
                                 <li><a href="#">레퍼런스 아키텍처</a></li>
@@ -98,12 +98,9 @@
                 </ul>
                 <div class="gnb_right">
                     <i class="search_btn"></i>
-                    <div class="gnb_btn select">
-                        <span>문의하기</span>
-                        <i class="fa-solid fa-angle-down"></i>
-                    </div>
-                    <div class="gnb_btn util">
-                        <span>콘솔</span>
+                    <div class="gnb_btn">
+                        <span class="select btn">문의하기<i class="fa-solid fa-angle-down"></i></span>
+                        <span class="util btn">콘솔</span>
                     </div>
                 </div>
             </div>
@@ -116,12 +113,8 @@
                     <p>성공적인 동남아시아 진출,<br>네이버클라우드가 지원합니다</p>
                     <p>검증된 IT 기술력과 보안 기술력으로 안전하고 효율적인 동남아시아 서비스를 운영해보세요</p>
                     <div class="btn_wrap">
-                        <div class="btn_white">
-                            <a href="#">자세히 보기</a>
-                        </div>
-                        <div class="btn_white">
-                            <a href="#">문의하기</a>
-                        </div>
+                        <a href="#" class="btn_white">자세히 보기</a>
+                        <a href="#" class="btn_white">문의하기</a>
                     </div>
                 </div>
             </li>
@@ -161,15 +154,17 @@
         <div class="notice_area">
             <div class="inner clearfix">
                 <div class="notice_left">
-                    <ul class="notice">
-                        <li>
-                            <a href="#">
-                                <span class="notice_category">서비스</span>
-                                <span class="content">Papago Translation API 콘솔 이용 관련 안내</span>
-                            </a>
-                            <span  class="date">2022-07-12</span>
-                        </li>
-                    </ul>
+                    <div class="notice">
+                        <ul class="notice_list">
+                            <li>
+                                <a href="#">
+                                    <span class="notice_category">서비스</span>
+                                    <span class="content">Papago Translation API 콘솔 이용 관련 안내</span>
+                                </a>
+                                <span  class="date">2022-07-12</span>
+                            </li>
+                        </ul>
+                    </div>
                     <a href="#" class="more">공지사항 전체 보기</a>
                 </div>
                 <div class="notice_right">
@@ -181,34 +176,28 @@
     </section>
     <section class="container1">
         <div class="inner">
-            <h2>Featured</h2>
+            <h2 class="en">Featured</h2>
             <ul class="items_list">
-                <li class="item">
-                    <a href="#">
-                        <div class="featured_box">
-                            <p class="category b_color"><i class="fa-brands fa-whatsapp"></i>Buisness Applications</p>
-                            <p class="name">Ncloud Chat</p>
-                            <p class="text">모든 비즈니스 에서 사용 가능한 Business 전용 채팅 솔루션 입니다.</p>
-                        </div>
-                    </a>
+                <li class="item featured_item">
+                    <div class="featured_box">
+                        <p class="category b_color en">Buisness Applications</p>
+                        <p class="name en"><img src="img/ncloud_chat.png" alt="Ncloud Chat">Ncloud Chat</p>
+                        <p class="text">모든 비즈니스 에서 사용 가능한 Business 전용 채팅 솔루션<br> 입니다.</p>
+                    </div>
                 </li>
-                <li class="item">
-                    <a href="#">
-                        <div class="featured_box">
-                            <p class="category mgmt"><i class="fa-brands fa-megaport"></i>Management & Governance</p>
-                            <p class="name">API Workflow</p>
-                            <p class="text">네이버 클라우드 플랫폼 및 HTTP 기반 API 서비스들의 실행 순서를 Workflow로 구성하여 모니터링/프로세스 자동화 등 다양하게 활용할 수 있습니다.</p>
-                        </div>
-                    </a>
+                <li class="item featured_item mgt">
+                    <div class="featured_box">
+                        <p class="category g_color en">Management & Governance</p>
+                        <p class="name en"><img src="img/api_workflow.png" alt="API Workflow">API Workflow</p>
+                        <p class="text">네이버 클라우드 플랫폼 및 HTTP 기반 API 서비스들의 실행 <br> 순서를 Workflow로 구성하여 모니터링/프로세스 자동화 등 다양하게 활용할 수 있습니다.</p>
+                    </div>
                 </li>
-                <li class="item">
-                    <a href="#">
-                        <div class="featured_box">
-                            <p class="category ai">AI Services</p>
-                            <p class="name">CLOVA Studio</p>
-                            <p class="text">CLOVA Studio는 초대규모 AI HyperCLOVA 기반의 No Code AI도구입니다.</p>
-                        </div>
-                    </a>
+                <li class="item featured_item">
+                    <div class="featured_box">
+                        <p class="category ai b_color en">AI Services</p>
+                        <p class="name en"><img src="img/clova_studio.png" alt="Clova Studio">CLOVA Studio</p>
+                        <p class="text">CLOVA Studio는 초대규모 AI HyperCLOVA 기반의 No Code <br> AI도구입니다.</p>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -216,47 +205,160 @@
     <section class="container2">
         <div class="inner">
             <div class="tabs">
-                <h2><a href="#tab1">Services</a></h2>
-                <h2><a href="#tab2">Reference Architecture</a></h2>
+                <h2><a href="#tab1" class="on en">Services</a></h2>
+                <h2><a href="#tab2" class="en">Reference Architecture</a></h2>
             </div>
             <div class="tabgroup">
                 <div id="tab1" class="tab_list">
-                    <div class="col">
-                        <ul class="row">
-                            <li><a href="#">Compute</a></li>
-                            <li><a href="#">Containers</a></li>
-                            <li><a href="#">Storage</a></li>
-                            <li><a href="#">Networking</a></li>
-                            <li><a href="#">Database</a></li>
-                            <li><a href="#">Security</a></li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <ul class="row">
-                            <li><a href="#">AI Services</a></li>
-                            <li><a href="#">Application Services</a></li>
-                            <li><a href="#">Big Data & Anaytics</a></li>
-                            <li><a href="#">Blockchain</a></li>
-                            <li><a href="#">Business Applications</a></li>
-                            <li><a href="#">Content Delivery</a></li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <ul class="row">
-                            <li><a href="#">Developer Tools</a></li>
-                            <li><a href="#">Gaming</a></li>
-                            <li><a href="#">Global Infrastructure</a></li>
-                            <li><a href="#">Hybrid & Private Cloud</a></li>
-                            <li><a href="#">Internet of Things</a></li>
-                            <li><a href="#">Management & Governance</a></li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <ul class="row">
-                            <li><a href="#">Media</a></li>
-                            <li><a href="#">Migration</a></li>
-                        </ul>
-                    </div>
+                    <ul class="row">
+                        <li>
+                            <img src="img/services_compute.png" alt="Compute">
+                            <div class="service_title en">
+                                Compute
+                                <div class="dot dotgreen"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_containers.png" alt="Containers">
+                            <div class="service_title en">
+                                Containers
+                                <div class="dot dotgreen"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_storage.png" alt="Storage">
+                            <div class="service_title en">
+                                Storage
+                                <div class="dot"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_networking.png" alt="Networking">
+                            <div class="service_title en">
+                                Networking
+                                <div class="dot dotgreen"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_database.png" alt="Database">
+                            <div class="service_title en">
+                                Database
+                                <div class="dot dotgreen"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_security.png" alt="Security">
+                            <div class="service_title en">
+                                Security
+                                <div class="dot"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="row">
+                        <li>
+                            <img src="img/services_aisercives.png" alt="AI Services">
+                            <div class="service_title en">
+                                AI Services
+                                <div class="dot dotgreen"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_application.png" alt="Application Services">
+                            <div class="service_title en">
+                                Application Services
+                                <div class="dot"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_bigdata.png" alt="Big Data & Anaytics">
+                            <div class="service_title en">
+                                Big Data & Anaytics
+                                <div class="dot dotgreen"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_blockchain.png" alt="Blockchain">
+                            <div class="service_title en">
+                                Blockchain
+                                <div class="dot dotgreen"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_businessapp.png" alt="Business Applications">
+                            <div class="service_title en">
+                                Business Applications
+                                <div class="dot dotgreen"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_contentdelivery.png" alt="Content Delivery">
+                            <div class="service_title en">
+                                Content Delivery
+                                <div class="dot"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="row">
+                        <li>
+                            <img src="img/services_developertools.png" alt="Developer Tools">
+                            <div class="service_title en">
+                                Developer Tools
+                                <div class="dot"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_gaming.png" alt="Gaming">
+                            <div class="service_title en">
+                                Gaming
+                                <div class="dot"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_globalinfrastructure.png" alt="Global Infrastructure">
+                            <div class="service_title en">
+                                Global Infrastructure
+                                <div class="dot dotgreen"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_hybrid.png" alt="Hybrid & Private Cloud">
+                            <div class="service_title en">
+                                Hybrid & Private Cloud
+                                <div class="dot"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_internetofthings.png" alt="Internet of Things">
+                            <div class="service_title en">
+                                Internet of Things
+                                <div class="dot"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_management.png" alt="Management & Governance">
+                            <div class="service_title en">
+                                Management & Governance
+                                <div class="dot dotred"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="row">
+                        <li>
+                            <img src="img/services_media.png" alt="Media">
+                            <div class="service_title en">
+                                Media
+                                <div class="dot"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/services_migration.png" alt="Migration">
+                            <div class="service_title en">
+                                Migration
+                                <div class="dot"></div>
+                            </div>
+                            
+                        </li>
+                    </ul>
                 </div>
                 <div id="tab2" class="tab_list"></div>
             </div>
