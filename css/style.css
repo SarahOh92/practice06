@@ -251,11 +251,11 @@ section.container4{padding: 60px 0 40px;background-color: #f6f7f8;}
 
 footer{background: #222;color: #fff;padding-bottom: 20px;}
 .footer_top{height: 64px;border-bottom: 1px solid #ffffff14;line-height: 64px;}
-.sns_area{display: flex;line-height: 28px;float: left;}
+.sns_area{display: flex;line-height: 33px;align-items: center;}
 .sns_area li{margin-right: 22px;}
 .sns_area li a{display: inline-block;}
 .sns_area .blog{background: url(../img/footer_sns_blog.png) no-repeat;width: 27px;height: 24px;background-size: contain;}
-.sns_area .facebook{background: url(../img/footer_sns_facebook.png)no-repeat;width: 27px;height: 27px; background-size: contain;}
+.sns_area .facebook{background: url(../img/footer_sns_facebook.png)no-repeat;width: 25px;height: 27px; background-size: contain;}
 .sns_area .youtube{background: url(../img/footer_sns_youtube.png)no-repeat;width: 27px;height: 21px;background-size: contain;}
 .sns_area .medium{background: url(../img/footer_sns_m.png)no-repeat;width: 24px;height: 24px;background-size: contain;}
 .sns_area .linkin{background: url(../img/footer_sns_link.png)no-repeat;width: 24px;height: 24px;background-size: contain;}
