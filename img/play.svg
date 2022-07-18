@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="84" viewBox="0 0 83 84">
+    <g fill="none" fill-rule="evenodd" transform="translate(2 2)">
+        <ellipse cx="39.906" cy="40" fill="#000" fill-opacity=".65" stroke="#FFF" stroke-width="2.266" rx="39.906" ry="40"/>
+        <path fill="#FFF" d="M60 40L30 60V20z"/>
+    </g>
+</svg>
